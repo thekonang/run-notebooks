@@ -1,0 +1,62 @@
+name: Run and Save Notebook
+
+on:
+  push:
+    branches: [run-notebooks]
+  workflow_dispatch:
+
+jobs:
+  run-notebook:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          python -m ipykernel install --user --name python3
+
+      - name: Execute All Notebooks
+        run: |
+          set -euo pipefail
+          shopt -s nullglob
+          mkdir -p output
+          notebooks=(input/*.ipynb)
+          if [ ${#notebooks[@]} -eq 0 ]; then
+            echo "No notebooks found in input/. Skipping execution."
+          else
+            for notebook in "${notebooks[@]}"; do
+              filename=$(basename "$notebook")
+              echo "Running $filename..."
+              papermill "$notebook" "output/$filename" -k python3
+            done
+          fi
+
+      - name: Commit and Push Results
+        run: |
+          set -euo pipefail
+          shopt -s nullglob
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          outputs=(output/*.ipynb)
+          if [ ${#outputs[@]} -eq 0 ]; then
+            echo "No output notebooks to commit."
+            exit 0
+          fi
+          git add "${outputs[@]}"
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git commit -m "Automated notebook execution results: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          git push
