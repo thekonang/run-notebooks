@@ -25,11 +25,42 @@ jobs:
           python-version: "3.11"
           cache: "pip"
 
+      - name: Cache Python virtualenv
+        id: venv-cache
+        uses: actions/cache@v4
+        with:
+          path: .venv
+          key: venv-${{ runner.os }}-py3.11-${{ hashFiles('requirements.txt') }}
+
       - name: Install Dependencies
         run: |
+          if [ ! -d .venv ]; then
+            python -m venv .venv
+          fi
+          source .venv/bin/activate
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          if [ "${{ steps.venv-cache.outputs.cache-hit }}" != "true" ]; then
+            pip install -r requirements.txt
+            # PyG compiled extensions (torch-cluster/torch-scatter/torch-sparse) are
+            # required by SchNet's radius_graph and must come from the PyG wheel
+            # index matching the installed torch version.
+            TORCH_VER=$(python -c "import torch, re; print(re.sub(r'\+.*$', '', torch.__version__))")
+            PYG_INDEX="https://data.pyg.org/whl/torch-${TORCH_VER}+cpu.html"
+            echo "Installing PyG extensions from $PYG_INDEX"
+            pip install torch-cluster torch-scatter torch-sparse -f "$PYG_INDEX"
+          else
+            echo "venv cache hit — skipping pip install"
+          fi
           python -m ipykernel install --user --name python3
+          echo "$PWD/.venv/bin" >> "$GITHUB_PATH"
+
+      - name: Cache notebook data (TDC + conformer pickles)
+        uses: actions/cache@v4
+        with:
+          path: data
+          key: notebook-data-v1-${{ hashFiles('requirements.txt') }}
+          restore-keys: |
+            notebook-data-v1-
 
       - name: Execute All Notebooks
         run: |

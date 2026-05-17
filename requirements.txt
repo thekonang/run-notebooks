@@ -9,5 +9,6 @@ seaborn
 scikit-learn
 rdkit
 PyTDC
-torch
-torch_geometric
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.4.1
+torch_geometric==2.6.1
