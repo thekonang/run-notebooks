@@ -1,2 +1,13 @@
 papermill
 ipykernel
+jupyter
+nbformat
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+rdkit
+PyTDC
+torch
+torch_geometric

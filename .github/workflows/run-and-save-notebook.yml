@@ -2,7 +2,11 @@ name: Run and Save Notebook
 
 on:
   push:
-    branches: [run-notebooks]
+    branches: [main]
+    paths:
+      - "input/**"
+      - "requirements.txt"
+      - ".github/workflows/run-and-save-notebook.yml"
   workflow_dispatch:
 
 jobs:
@@ -16,9 +20,10 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
-          python-version: "3.10"
+          python-version: "3.11"
+          cache: "pip"
 
       - name: Install Dependencies
         run: |
@@ -48,12 +53,7 @@ jobs:
           shopt -s nullglob
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          outputs=(output/*.ipynb)
-          if [ ${#outputs[@]} -eq 0 ]; then
-            echo "No output notebooks to commit."
-            exit 0
-          fi
-          git add "${outputs[@]}"
+          git add -A output/
           if git diff --cached --quiet; then
             echo "No changes to commit."
             exit 0
