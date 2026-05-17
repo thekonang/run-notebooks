@@ -1,0 +1,3 @@
+method,auroc,f1,accuracy,precision,recall
+SchNet (1 conformer),0.38461538461538464,0.0,0.4666666666666667,0.0,0.0
+SchNet (2-conformer mean),0.38461538461538464,0.0,0.4666666666666667,0.0,0.0
