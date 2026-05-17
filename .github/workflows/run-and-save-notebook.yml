@@ -58,5 +58,5 @@ jobs:
             echo "No changes to commit."
             exit 0
           fi
-          git commit -m "Automated notebook execution results: $(date)"
+          git commit -m "Automated notebook execution results: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
           git push
