@@ -28,17 +28,31 @@ jobs:
 
       - name: Execute All Notebooks
         run: |
+          set -euo pipefail
+          shopt -s nullglob
           mkdir -p output
-          for notebook in input/*.ipynb; do
-            filename=$(basename "$notebook")
-            echo "Running $filename..."
-            papermill "$notebook" "output/$filename" -k python3
-          done
+          notebooks=(input/*.ipynb)
+          if [ ${#notebooks[@]} -eq 0 ]; then
+            echo "No notebooks found in input/. Skipping execution."
+          else
+            for notebook in "${notebooks[@]}"; do
+              filename=$(basename "$notebook")
+              echo "Running $filename..."
+              papermill "$notebook" "output/$filename" -k python3
+            done
+          fi
 
       - name: Commit and Push Results
         run: |
+          set -euo pipefail
+          shopt -s nullglob
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add output/*.ipynb
+          outputs=(output/*.ipynb)
+          if [ ${#outputs[@]} -eq 0 ]; then
+            echo "No output notebooks to commit."
+            exit 0
+          fi
+          git add "${outputs[@]}"
           git commit -m "Automated batch experiment results: $(date)" || echo "No changes to commit"
           git push
