@@ -54,5 +54,9 @@ jobs:
             exit 0
           fi
           git add "${outputs[@]}"
-          git commit -m "Automated batch experiment results: $(date)" || echo "No changes to commit"
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git commit -m "Automated batch experiment results: $(date)"
           git push
