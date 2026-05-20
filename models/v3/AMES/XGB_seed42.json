@@ -1,0 +1,12 @@
+{
+  "dataset": "AMES",
+  "method": "XGB",
+  "seed": 42,
+  "task": "classification",
+  "elapsed_sec": 3.81,
+  "metric_accuracy": 0.6945778997940975,
+  "metric_f1": 0.7174603174603175,
+  "metric_precision": 0.669431279620853,
+  "metric_recall": 0.7729138166894665,
+  "metric_roc_auc": 0.7638504181222749
+}

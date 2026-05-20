@@ -1,0 +1,2 @@
+dataset,RF,XGB,ChemBERTa,GIN,GINE
+AMES,0.792 ± 0.002,0.757 ± 0.009,,,

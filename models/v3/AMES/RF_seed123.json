@@ -1,0 +1,12 @@
+{
+  "dataset": "AMES",
+  "method": "RF",
+  "seed": 123,
+  "task": "classification",
+  "elapsed_sec": 4.94,
+  "metric_accuracy": 0.7137954701441318,
+  "metric_f1": 0.7405102675793404,
+  "metric_precision": 0.6854838709677419,
+  "metric_recall": 0.8051420838971584,
+  "metric_roc_auc": 0.7927241133655735
+}
