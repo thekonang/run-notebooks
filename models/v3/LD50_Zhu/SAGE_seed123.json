@@ -1,0 +1,10 @@
+{
+  "dataset": "LD50_Zhu",
+  "method": "SAGE",
+  "seed": 123,
+  "task": "regression",
+  "elapsed_sec": 47.73,
+  "metric_mae": 0.6649959087371826,
+  "metric_rmse": 0.8645975770504719,
+  "metric_r2": -0.04150998592376709
+}

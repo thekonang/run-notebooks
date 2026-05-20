@@ -1,0 +1,12 @@
+{
+  "dataset": "Tox21_NR-PPAR-gamma",
+  "method": "SAGE",
+  "seed": 42,
+  "task": "classification",
+  "elapsed_sec": 15.82,
+  "metric_accuracy": 0.6829457364341085,
+  "metric_f1": 0.14613778705636743,
+  "metric_precision": 0.08433734939759036,
+  "metric_recall": 0.546875,
+  "metric_roc_auc": 0.6531275489396411
+}

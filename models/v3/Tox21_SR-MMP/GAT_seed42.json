@@ -1,0 +1,12 @@
+{
+  "dataset": "Tox21_SR-MMP",
+  "method": "GAT",
+  "seed": 42,
+  "task": "classification",
+  "elapsed_sec": 34.43,
+  "metric_accuracy": 0.5692175408426483,
+  "metric_f1": 0.42479908151549944,
+  "metric_precision": 0.29365079365079366,
+  "metric_recall": 0.7676348547717843,
+  "metric_roc_auc": 0.716595710209629
+}

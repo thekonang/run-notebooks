@@ -1,0 +1,12 @@
+{
+  "dataset": "AMES",
+  "method": "GAT",
+  "seed": 42,
+  "task": "classification",
+  "elapsed_sec": 84.94,
+  "metric_accuracy": 0.6787920384351407,
+  "metric_f1": 0.7056603773584905,
+  "metric_precision": 0.6530849825378346,
+  "metric_recall": 0.7674418604651163,
+  "metric_roc_auc": 0.7568276974445362
+}

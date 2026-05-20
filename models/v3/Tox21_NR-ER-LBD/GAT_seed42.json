@@ -1,0 +1,12 @@
+{
+  "dataset": "Tox21_NR-ER-LBD",
+  "method": "GAT",
+  "seed": 42,
+  "task": "classification",
+  "elapsed_sec": 46.6,
+  "metric_accuracy": 0.6896551724137931,
+  "metric_f1": 0.12550607287449392,
+  "metric_precision": 0.07093821510297482,
+  "metric_recall": 0.543859649122807,
+  "metric_roc_auc": 0.6990209606413036
+}

@@ -1,0 +1,12 @@
+{
+  "dataset": "AMES",
+  "method": "GCN",
+  "seed": 42,
+  "task": "classification",
+  "elapsed_sec": 41.36,
+  "metric_accuracy": 0.6492793411118737,
+  "metric_f1": 0.6820161792159303,
+  "metric_precision": 0.6255707762557078,
+  "metric_recall": 0.7496580027359782,
+  "metric_roc_auc": 0.7198354644567803
+}

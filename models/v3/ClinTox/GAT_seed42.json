@@ -1,0 +1,12 @@
+{
+  "dataset": "ClinTox",
+  "method": "GAT",
+  "seed": 42,
+  "task": "classification",
+  "elapsed_sec": 17.65,
+  "metric_accuracy": 0.6498316498316499,
+  "metric_f1": 0.2571428571428571,
+  "metric_precision": 0.15126050420168066,
+  "metric_recall": 0.8571428571428571,
+  "metric_roc_auc": 0.714975845410628
+}

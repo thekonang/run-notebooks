@@ -1,0 +1,12 @@
+{
+  "dataset": "Tox21_SR-HSE",
+  "method": "GAT",
+  "seed": 42,
+  "task": "classification",
+  "elapsed_sec": 19.58,
+  "metric_accuracy": 0.0888030888030888,
+  "metric_f1": 0.14739884393063585,
+  "metric_precision": 0.07956318252730109,
+  "metric_recall": 1.0,
+  "metric_roc_auc": 0.605673618986572
+}

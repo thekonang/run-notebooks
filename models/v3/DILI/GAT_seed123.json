@@ -1,0 +1,12 @@
+{
+  "dataset": "DILI",
+  "method": "GAT",
+  "seed": 123,
+  "task": "classification",
+  "elapsed_sec": 3.26,
+  "metric_accuracy": 0.7083333333333334,
+  "metric_f1": 0.8028169014084507,
+  "metric_precision": 0.7037037037037037,
+  "metric_recall": 0.9344262295081968,
+  "metric_roc_auc": 0.8023419203747073
+}

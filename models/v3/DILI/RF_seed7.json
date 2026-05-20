@@ -1,0 +1,12 @@
+{
+  "dataset": "DILI",
+  "method": "RF",
+  "seed": 7,
+  "task": "classification",
+  "elapsed_sec": 1.01,
+  "metric_accuracy": 0.78125,
+  "metric_f1": 0.8292682926829268,
+  "metric_precision": 0.8793103448275862,
+  "metric_recall": 0.7846153846153846,
+  "metric_roc_auc": 0.8903225806451613
+}

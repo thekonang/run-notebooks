@@ -1,0 +1,12 @@
+{
+  "dataset": "DILI",
+  "method": "SAGE",
+  "seed": 42,
+  "task": "classification",
+  "elapsed_sec": 2.6,
+  "metric_accuracy": 0.7708333333333334,
+  "metric_f1": 0.8166666666666667,
+  "metric_precision": 0.765625,
+  "metric_recall": 0.875,
+  "metric_roc_auc": 0.8205357142857143
+}

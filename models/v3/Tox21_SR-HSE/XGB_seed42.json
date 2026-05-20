@@ -1,0 +1,12 @@
+{
+  "dataset": "Tox21_SR-HSE",
+  "method": "XGB",
+  "seed": 42,
+  "task": "classification",
+  "elapsed_sec": 3.53,
+  "metric_accuracy": 0.9204633204633205,
+  "metric_f1": 0.08849557522123894,
+  "metric_precision": 0.45454545454545453,
+  "metric_recall": 0.049019607843137254,
+  "metric_roc_auc": 0.6203753924033989
+}

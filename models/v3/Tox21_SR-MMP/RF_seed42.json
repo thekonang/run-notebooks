@@ -1,0 +1,12 @@
+{
+  "dataset": "Tox21_SR-MMP",
+  "method": "RF",
+  "seed": 42,
+  "task": "classification",
+  "elapsed_sec": 4.17,
+  "metric_accuracy": 0.8005159071367154,
+  "metric_f1": 0.12121212121212122,
+  "metric_precision": 0.6956521739130435,
+  "metric_recall": 0.06639004149377593,
+  "metric_roc_auc": 0.7481818345469438
+}

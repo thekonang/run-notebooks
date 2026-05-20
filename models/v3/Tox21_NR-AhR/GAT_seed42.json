@@ -1,0 +1,12 @@
+{
+  "dataset": "Tox21_NR-AhR",
+  "method": "GAT",
+  "seed": 42,
+  "task": "classification",
+  "elapsed_sec": 34.82,
+  "metric_accuracy": 0.4897025171624714,
+  "metric_f1": 0.3548698167791707,
+  "metric_precision": 0.21852731591448932,
+  "metric_recall": 0.9435897435897436,
+  "metric_roc_auc": 0.7873173421560518
+}

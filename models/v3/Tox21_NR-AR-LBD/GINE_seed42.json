@@ -1,0 +1,12 @@
+{
+  "dataset": "Tox21_NR-AR-LBD",
+  "method": "GINE",
+  "seed": 42,
+  "task": "classification",
+  "elapsed_sec": 20.75,
+  "metric_accuracy": 0.5720620842572062,
+  "metric_f1": 0.10510046367851623,
+  "metric_precision": 0.056666666666666664,
+  "metric_recall": 0.723404255319149,
+  "metric_roc_auc": 0.7471082727835522
+}

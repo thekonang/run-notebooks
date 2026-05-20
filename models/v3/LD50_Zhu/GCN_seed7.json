@@ -1,0 +1,10 @@
+{
+  "dataset": "LD50_Zhu",
+  "method": "GCN",
+  "seed": 7,
+  "task": "regression",
+  "elapsed_sec": 69.51,
+  "metric_mae": 0.6728838682174683,
+  "metric_rmse": 0.8677659382346908,
+  "metric_r2": -0.10103261470794678
+}

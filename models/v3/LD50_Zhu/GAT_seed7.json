@@ -1,0 +1,10 @@
+{
+  "dataset": "LD50_Zhu",
+  "method": "GAT",
+  "seed": 7,
+  "task": "regression",
+  "elapsed_sec": 35.93,
+  "metric_mae": 0.6593124270439148,
+  "metric_rmse": 0.8465285292773257,
+  "metric_r2": -0.04779946804046631
+}

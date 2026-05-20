@@ -1,0 +1,12 @@
+{
+  "dataset": "ClinTox",
+  "method": "GCN",
+  "seed": 123,
+  "task": "classification",
+  "elapsed_sec": 5.16,
+  "metric_accuracy": 0.5959595959595959,
+  "metric_f1": 0.22077922077922077,
+  "metric_precision": 0.136,
+  "metric_recall": 0.5862068965517241,
+  "metric_roc_auc": 0.6067936181163149
+}

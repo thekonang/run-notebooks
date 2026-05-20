@@ -1,0 +1,12 @@
+{
+  "dataset": "ClinTox",
+  "method": "XGB",
+  "seed": 42,
+  "task": "classification",
+  "elapsed_sec": 1.4,
+  "metric_accuracy": 0.9393939393939394,
+  "metric_f1": 0.4375,
+  "metric_precision": 0.6363636363636364,
+  "metric_recall": 0.3333333333333333,
+  "metric_roc_auc": 0.8326432022084196
+}

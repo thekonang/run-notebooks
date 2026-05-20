@@ -1,0 +1,12 @@
+{
+  "dataset": "DILI",
+  "method": "XGB",
+  "seed": 42,
+  "task": "classification",
+  "elapsed_sec": 0.6,
+  "metric_accuracy": 0.6666666666666666,
+  "metric_f1": 0.7037037037037037,
+  "metric_precision": 0.7307692307692307,
+  "metric_recall": 0.6785714285714286,
+  "metric_roc_auc": 0.7647321428571429
+}

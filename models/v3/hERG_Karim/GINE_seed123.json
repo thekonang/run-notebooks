@@ -1,0 +1,12 @@
+{
+  "dataset": "hERG_Karim",
+  "method": "GINE",
+  "seed": 123,
+  "task": "classification",
+  "elapsed_sec": 61.08,
+  "metric_accuracy": 0.7003717472118959,
+  "metric_f1": 0.5949748743718593,
+  "metric_precision": 0.7089820359281437,
+  "metric_recall": 0.5125541125541125,
+  "metric_roc_auc": 0.757289225432548
+}

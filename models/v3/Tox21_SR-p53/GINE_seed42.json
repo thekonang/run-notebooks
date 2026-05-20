@@ -1,0 +1,12 @@
+{
+  "dataset": "Tox21_SR-p53",
+  "method": "GINE",
+  "seed": 42,
+  "task": "classification",
+  "elapsed_sec": 19.17,
+  "metric_accuracy": 0.3938053097345133,
+  "metric_f1": 0.25272727272727274,
+  "metric_precision": 0.14616193480546794,
+  "metric_recall": 0.9328859060402684,
+  "metric_roc_auc": 0.7243762615169899
+}

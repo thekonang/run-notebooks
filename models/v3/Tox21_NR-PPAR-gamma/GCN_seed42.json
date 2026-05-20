@@ -1,0 +1,12 @@
+{
+  "dataset": "Tox21_NR-PPAR-gamma",
+  "method": "GCN",
+  "seed": 42,
+  "task": "classification",
+  "elapsed_sec": 35.28,
+  "metric_accuracy": 0.48294573643410854,
+  "metric_f1": 0.1303780964797914,
+  "metric_precision": 0.07112375533428165,
+  "metric_recall": 0.78125,
+  "metric_roc_auc": 0.6477110522022839
+}

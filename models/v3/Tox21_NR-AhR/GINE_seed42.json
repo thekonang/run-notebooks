@@ -1,0 +1,12 @@
+{
+  "dataset": "Tox21_NR-AhR",
+  "method": "GINE",
+  "seed": 42,
+  "task": "classification",
+  "elapsed_sec": 17.2,
+  "metric_accuracy": 0.5453852021357742,
+  "metric_f1": 0.37130801687763715,
+  "metric_precision": 0.2337317397078353,
+  "metric_recall": 0.9025641025641026,
+  "metric_roc_auc": 0.7913840639647092
+}

@@ -1,0 +1,12 @@
+{
+  "dataset": "Tox21_SR-MMP",
+  "method": "GIN",
+  "seed": 42,
+  "task": "classification",
+  "elapsed_sec": 15.48,
+  "metric_accuracy": 0.6027515047291487,
+  "metric_f1": 0.4689655172413793,
+  "metric_precision": 0.32432432432432434,
+  "metric_recall": 0.8464730290456431,
+  "metric_roc_auc": 0.7524864762693404
+}

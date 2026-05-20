@@ -1,0 +1,12 @@
+{
+  "dataset": "ClinTox",
+  "method": "SAGE",
+  "seed": 42,
+  "task": "classification",
+  "elapsed_sec": 20.64,
+  "metric_accuracy": 0.7138047138047138,
+  "metric_f1": 0.2975206611570248,
+  "metric_precision": 0.18,
+  "metric_recall": 0.8571428571428571,
+  "metric_roc_auc": 0.7938233264320221
+}

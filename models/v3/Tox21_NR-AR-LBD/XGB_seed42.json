@@ -1,0 +1,12 @@
+{
+  "dataset": "Tox21_NR-AR-LBD",
+  "method": "XGB",
+  "seed": 42,
+  "task": "classification",
+  "elapsed_sec": 3.85,
+  "metric_accuracy": 0.967479674796748,
+  "metric_f1": 0.37142857142857144,
+  "metric_precision": 0.5652173913043478,
+  "metric_recall": 0.2765957446808511,
+  "metric_roc_auc": 0.775748590792089
+}

@@ -1,0 +1,12 @@
+{
+  "dataset": "DILI",
+  "method": "ChemBERTa",
+  "seed": 42,
+  "task": "classification",
+  "elapsed_sec": 42.47,
+  "metric_accuracy": 0.6354166666666666,
+  "metric_f1": 0.6728971962616822,
+  "metric_precision": 0.7058823529411765,
+  "metric_recall": 0.6428571428571429,
+  "metric_roc_auc": 0.6767857142857143
+}

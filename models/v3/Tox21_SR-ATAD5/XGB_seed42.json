@@ -1,0 +1,12 @@
+{
+  "dataset": "Tox21_SR-ATAD5",
+  "method": "XGB",
+  "seed": 42,
+  "task": "classification",
+  "elapsed_sec": 3.84,
+  "metric_accuracy": 0.950530035335689,
+  "metric_f1": 0.027777777777777776,
+  "metric_precision": 0.14285714285714285,
+  "metric_recall": 0.015384615384615385,
+  "metric_roc_auc": 0.6437378917378918
+}

@@ -1,0 +1,12 @@
+{
+  "dataset": "Tox21_NR-ER-LBD",
+  "method": "GIN",
+  "seed": 42,
+  "task": "classification",
+  "elapsed_sec": 18.98,
+  "metric_accuracy": 0.5833333333333334,
+  "metric_f1": 0.11585365853658537,
+  "metric_precision": 0.06343906510851419,
+  "metric_recall": 0.6666666666666666,
+  "metric_roc_auc": 0.6813456863131612
+}

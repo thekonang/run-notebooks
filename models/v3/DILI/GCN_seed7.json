@@ -1,0 +1,12 @@
+{
+  "dataset": "DILI",
+  "method": "GCN",
+  "seed": 7,
+  "task": "classification",
+  "elapsed_sec": 6.9,
+  "metric_accuracy": 0.8125,
+  "metric_f1": 0.8676470588235294,
+  "metric_precision": 0.8309859154929577,
+  "metric_recall": 0.9076923076923077,
+  "metric_roc_auc": 0.8828784119106701
+}

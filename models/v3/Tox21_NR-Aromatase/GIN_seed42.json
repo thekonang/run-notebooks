@@ -1,0 +1,12 @@
+{
+  "dataset": "Tox21_NR-Aromatase",
+  "method": "GIN",
+  "seed": 42,
+  "task": "classification",
+  "elapsed_sec": 12.41,
+  "metric_accuracy": 0.15879828326180256,
+  "metric_f1": 0.16808149405772496,
+  "metric_precision": 0.09217877094972067,
+  "metric_recall": 0.9519230769230769,
+  "metric_roc_auc": 0.6448107735808019
+}

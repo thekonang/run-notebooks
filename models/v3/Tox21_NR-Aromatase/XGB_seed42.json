@@ -1,0 +1,12 @@
+{
+  "dataset": "Tox21_NR-Aromatase",
+  "method": "XGB",
+  "seed": 42,
+  "task": "classification",
+  "elapsed_sec": 3.49,
+  "metric_accuracy": 0.9081545064377683,
+  "metric_f1": 0.036036036036036036,
+  "metric_precision": 0.2857142857142857,
+  "metric_recall": 0.019230769230769232,
+  "metric_roc_auc": 0.5943866453998405
+}

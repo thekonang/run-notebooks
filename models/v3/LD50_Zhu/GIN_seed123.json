@@ -1,0 +1,10 @@
+{
+  "dataset": "LD50_Zhu",
+  "method": "GIN",
+  "seed": 123,
+  "task": "regression",
+  "elapsed_sec": 26.6,
+  "metric_mae": 0.7407907247543335,
+  "metric_rmse": 1.0323702189829813,
+  "metric_r2": -0.48493123054504395
+}

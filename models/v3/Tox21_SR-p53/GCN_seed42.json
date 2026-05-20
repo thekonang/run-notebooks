@@ -1,0 +1,12 @@
+{
+  "dataset": "Tox21_SR-p53",
+  "method": "GCN",
+  "seed": 42,
+  "task": "classification",
+  "elapsed_sec": 50.64,
+  "metric_accuracy": 0.35176991150442477,
+  "metric_f1": 0.24158757549611734,
+  "metric_precision": 0.13861386138613863,
+  "metric_recall": 0.9395973154362416,
+  "metric_roc_auc": 0.7134333835623294
+}

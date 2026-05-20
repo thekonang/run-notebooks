@@ -1,0 +1,12 @@
+{
+  "dataset": "ClinTox",
+  "method": "RF",
+  "seed": 7,
+  "task": "classification",
+  "elapsed_sec": 1.55,
+  "metric_accuracy": 0.936026936026936,
+  "metric_f1": 0.0,
+  "metric_precision": 0.0,
+  "metric_recall": 0.0,
+  "metric_roc_auc": 0.7315410829231351
+}

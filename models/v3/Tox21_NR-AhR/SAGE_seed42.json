@@ -1,0 +1,12 @@
+{
+  "dataset": "Tox21_NR-AhR",
+  "method": "SAGE",
+  "seed": 42,
+  "task": "classification",
+  "elapsed_sec": 38.55,
+  "metric_accuracy": 0.5827612509534706,
+  "metric_f1": 0.3847019122609674,
+  "metric_precision": 0.24639769452449567,
+  "metric_recall": 0.8769230769230769,
+  "metric_roc_auc": 0.8031247128021323
+}

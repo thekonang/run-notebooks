@@ -1,0 +1,12 @@
+{
+  "dataset": "hERG_Karim",
+  "method": "RF",
+  "seed": 123,
+  "task": "classification",
+  "elapsed_sec": 10.57,
+  "metric_accuracy": 0.724907063197026,
+  "metric_f1": 0.6972176759410802,
+  "metric_precision": 0.660977501939488,
+  "metric_recall": 0.7376623376623377,
+  "metric_roc_auc": 0.7951565915083831
+}

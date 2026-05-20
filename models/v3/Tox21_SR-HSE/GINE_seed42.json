@@ -1,0 +1,12 @@
+{
+  "dataset": "Tox21_SR-HSE",
+  "method": "GINE",
+  "seed": 42,
+  "task": "classification",
+  "elapsed_sec": 24.05,
+  "metric_accuracy": 0.5096525096525096,
+  "metric_f1": 0.18693982074263765,
+  "metric_precision": 0.10751104565537556,
+  "metric_recall": 0.7156862745098039,
+  "metric_roc_auc": 0.6690005423795671
+}

@@ -1,0 +1,12 @@
+{
+  "dataset": "Tox21_SR-ARE",
+  "method": "GAT",
+  "seed": 42,
+  "task": "classification",
+  "elapsed_sec": 65.71,
+  "metric_accuracy": 0.4001713796058269,
+  "metric_f1": 0.40273037542662116,
+  "metric_precision": 0.26077348066298345,
+  "metric_recall": 0.8838951310861424,
+  "metric_roc_auc": 0.6398314606741573
+}

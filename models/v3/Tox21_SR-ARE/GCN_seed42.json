@@ -1,0 +1,12 @@
+{
+  "dataset": "Tox21_SR-ARE",
+  "method": "GCN",
+  "seed": 42,
+  "task": "classification",
+  "elapsed_sec": 67.66,
+  "metric_accuracy": 0.38303341902313626,
+  "metric_f1": 0.4,
+  "metric_precision": 0.2572347266881029,
+  "metric_recall": 0.898876404494382,
+  "metric_roc_auc": 0.6537265917602996
+}

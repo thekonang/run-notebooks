@@ -1,0 +1,12 @@
+{
+  "dataset": "hERG_Karim",
+  "method": "GAT",
+  "seed": 42,
+  "task": "classification",
+  "elapsed_sec": 187.03,
+  "metric_accuracy": 0.6680297397769517,
+  "metric_f1": 0.6057395143487859,
+  "metric_precision": 0.6157989228007181,
+  "metric_recall": 0.5960034752389227,
+  "metric_roc_auc": 0.7133983557535922
+}

@@ -1,0 +1,12 @@
+{
+  "dataset": "hERG_Karim",
+  "method": "ChemBERTa",
+  "seed": 7,
+  "task": "classification",
+  "elapsed_sec": 1200.76,
+  "metric_accuracy": 0.6118959107806692,
+  "metric_f1": 0.5940902021772939,
+  "metric_precision": 0.5305555555555556,
+  "metric_recall": 0.6749116607773852,
+  "metric_roc_auc": 0.692488217656958
+}

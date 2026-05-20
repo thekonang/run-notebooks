@@ -1,0 +1,12 @@
+{
+  "dataset": "AMES",
+  "method": "SAGE",
+  "seed": 7,
+  "task": "classification",
+  "elapsed_sec": 34.46,
+  "metric_accuracy": 0.7021276595744681,
+  "metric_f1": 0.7297633872976339,
+  "metric_precision": 0.6643990929705216,
+  "metric_recall": 0.8093922651933702,
+  "metric_roc_auc": 0.767386732794163
+}

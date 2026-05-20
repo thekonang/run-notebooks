@@ -1,0 +1,12 @@
+{
+  "dataset": "DILI",
+  "method": "GIN",
+  "seed": 7,
+  "task": "classification",
+  "elapsed_sec": 1.75,
+  "metric_accuracy": 0.8958333333333334,
+  "metric_f1": 0.9253731343283582,
+  "metric_precision": 0.8985507246376812,
+  "metric_recall": 0.9538461538461539,
+  "metric_roc_auc": 0.9086848635235734
+}

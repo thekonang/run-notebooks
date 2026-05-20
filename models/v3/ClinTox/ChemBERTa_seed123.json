@@ -1,0 +1,12 @@
+{
+  "dataset": "ClinTox",
+  "method": "ChemBERTa",
+  "seed": 123,
+  "task": "classification",
+  "elapsed_sec": 131.71,
+  "metric_accuracy": 0.531986531986532,
+  "metric_f1": 0.2057142857142857,
+  "metric_precision": 0.1232876712328767,
+  "metric_recall": 0.6206896551724138,
+  "metric_roc_auc": 0.5930905815748841
+}

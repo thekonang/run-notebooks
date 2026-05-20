@@ -1,0 +1,12 @@
+{
+  "dataset": "Tox21_SR-ATAD5",
+  "method": "GINE",
+  "seed": 42,
+  "task": "classification",
+  "elapsed_sec": 19.35,
+  "metric_accuracy": 0.384452296819788,
+  "metric_f1": 0.10849539406345957,
+  "metric_precision": 0.0581140350877193,
+  "metric_recall": 0.8153846153846154,
+  "metric_roc_auc": 0.6724216524216524
+}

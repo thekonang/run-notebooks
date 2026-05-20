@@ -1,0 +1,10 @@
+{
+  "dataset": "LD50_Zhu",
+  "method": "XGB",
+  "seed": 7,
+  "task": "regression",
+  "elapsed_sec": 3.63,
+  "metric_mae": 0.6155393123626709,
+  "metric_rmse": 0.8484659854048229,
+  "metric_r2": -0.05260121822357178
+}

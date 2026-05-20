@@ -1,0 +1,12 @@
+{
+  "dataset": "Tox21_SR-p53",
+  "method": "GIN",
+  "seed": 42,
+  "task": "classification",
+  "elapsed_sec": 22.12,
+  "metric_accuracy": 0.5309734513274337,
+  "metric_f1": 0.273972602739726,
+  "metric_precision": 0.16506189821182943,
+  "metric_recall": 0.8053691275167785,
+  "metric_roc_auc": 0.708606951618912
+}

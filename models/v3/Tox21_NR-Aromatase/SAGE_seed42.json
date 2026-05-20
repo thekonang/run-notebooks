@@ -1,0 +1,12 @@
+{
+  "dataset": "Tox21_NR-Aromatase",
+  "method": "SAGE",
+  "seed": 42,
+  "task": "classification",
+  "elapsed_sec": 29.11,
+  "metric_accuracy": 0.15450643776824036,
+  "metric_f1": 0.17157275021026072,
+  "metric_precision": 0.09400921658986175,
+  "metric_recall": 0.9807692307692307,
+  "metric_roc_auc": 0.6544261581961864
+}

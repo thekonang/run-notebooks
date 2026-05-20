@@ -1,0 +1,12 @@
+{
+  "dataset": "AMES",
+  "method": "GIN",
+  "seed": 42,
+  "task": "classification",
+  "elapsed_sec": 32.7,
+  "metric_accuracy": 0.7131091283459162,
+  "metric_f1": 0.7317073170731707,
+  "metric_precision": 0.6892382103990327,
+  "metric_recall": 0.7797537619699042,
+  "metric_roc_auc": 0.7785515897691
+}

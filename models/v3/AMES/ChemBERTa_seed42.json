@@ -1,0 +1,12 @@
+{
+  "dataset": "AMES",
+  "method": "ChemBERTa",
+  "seed": 42,
+  "task": "classification",
+  "elapsed_sec": 650.51,
+  "metric_accuracy": 0.641729581331503,
+  "metric_f1": 0.6896551724137931,
+  "metric_precision": 0.6098843322818086,
+  "metric_recall": 0.7934336525307798,
+  "metric_roc_auc": 0.7171842790546932
+}
