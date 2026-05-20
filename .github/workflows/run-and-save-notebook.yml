@@ -74,7 +74,9 @@ jobs:
             for notebook in "${notebooks[@]}"; do
               filename=$(basename "$notebook")
               echo "Running $filename..."
-              papermill "$notebook" "output/$filename" -k python3
+              # Run with cwd=input/ so the notebook's ../data, ../models, ../results
+              # paths resolve to the repo root rather than one level above the checkout.
+              papermill "$notebook" "output/$filename" -k python3 --cwd input
             done
           fi
 
@@ -84,7 +86,7 @@ jobs:
           shopt -s nullglob
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add -A output/
+          git add -A output/ models/ results/
           if git diff --cached --quiet; then
             echo "No changes to commit."
             exit 0
